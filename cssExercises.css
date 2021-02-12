@@ -1,0 +1,74 @@
+
+html {
+    font-family: serif, sans-serif;
+}
+body {
+  /*   background-image: url(zebra.jfif);
+    background-repeat: no-repeat;
+    background-size:cover; */
+    background-color: #444;
+    /* margin: 50px;
+    text-align: center;*/
+} 
+/* ### Css Gradients ###  ### HTML color Picker ### */
+/*.container {
+     
+    background-image: linear-gradient(to right bottom, #1b6531,#c3efd0);
+    box-shadow: 2px 2px 4px  darkorange;
+} */
+
+h1, h3 {
+    color: #ffffff;
+    text-shadow: 2px 2px 5px darkorange;
+    line-height: 1rem;
+    font-family: 'Oxygen', Arial, Helvetica, sans-serif;
+    ;
+}
+
+h2 {
+    color: rgb(54, 31, 31);
+    text-shadow: 2px 2px 3px darkorange;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+    opacity: 0.5;
+    /* display: block;
+    margin: auto; */
+    margin-bottom: 60px;
+}
+.borderImg {
+    /* border: 10px dashed red; */
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #ddd;
+    padding: 5px;
+
+}
+
+button {
+    color: white;
+    background: rgb(75, 35, 35);
+    border-radius: 12px;
+    border: none;
+    font-size: 25px;
+    padding: 10px 20px;
+
+}
+
+ul li {
+    color: white;
+    font-size: 20px;
+}
+
+ul > li {
+    color: wheat;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+}
